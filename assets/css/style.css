@@ -1074,3 +1074,78 @@ textarea.contact-input {
   border-radius: 10px;
   opacity: 0.9;
 }
+
+/* CSS for mobile view using media queries */
+@media only screen and (max-width: 767px) {
+  /* Adjust section layout for mobile devices */
+
+  .section.achivements {
+    /* Add your mobile-specific styles here */
+    /* For example, adjust padding or margin */
+    padding: 20px;
+  }
+
+  .section-subtitle {
+    /* Modify section subtitle styles for mobile */
+    /* For example, change font size or alignment */
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .h2.section-title {
+    /* Modify section title styles for mobile */
+    /* For example, change font size or alignment */
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .section-text {
+    /* Modify section text styles for mobile */
+    /* For example, change font size or alignment */
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #carouselExampleCaptions {
+    /* Adjust carousel styles for mobile */
+    /* For example, change width or height */
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-item img {
+    /* Modify carousel item image styles for mobile */
+    /* For example, adjust width or height */
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-caption {
+    /* Modify carousel caption styles for mobile */
+    /* For example, change font size or alignment */
+    font-size: 14px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+    padding: 10px; /* Add padding for better visibility */
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    /* Modify carousel control button styles for mobile */
+    /* For example, adjust size or position */
+    width: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .carousel-inner{
+    height: 30vh;
+    width: auto;
+  }
+
+  .carousel-inner img{
+    object-fit: cover;
+    height: 100% !important;
+    width: auto;
+  }
+}
