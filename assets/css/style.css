@@ -174,7 +174,7 @@ body {
 
 .container { padding-inline: 20px; }
 
-.btn {
+.custom-btn {
   color: var(--white);
   font-family: var(--ff-barlow);
   font-size: var(--fs-5);
@@ -185,9 +185,9 @@ body {
   transition: var(--transition-2);
 }
 
-.btn-primary.blue { background-color: var(--klein-blue); }
+.custom-btn-primary.blue { background-color: var(--klein-blue); }
 
-.btn-primary.blue:is(:hover, :focus) { background-color: var(--orange-soda); }
+.custom-btn-primary.blue:is(:hover, :focus) { background-color: var(--orange-soda); }
 
 .img-cover {
   width: 100%;
@@ -289,7 +289,7 @@ body {
 
 .navbar-link:is(:hover, :focus) { color: var(--orange-soda); }
 
-.navbar .btn {
+.navbar .custom-btn {
   background-color: var(--orange-soda);
   margin-block-start: 15px;
 }
@@ -348,7 +348,7 @@ body {
 
 .hero-text { margin-block-end: 25px; }
 
-.btn-group {
+.custom-btn-group {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -423,7 +423,7 @@ body {
   margin-block-end: 20px;
 }
 
-.portfolio-card .btn-link {
+.portfolio-card .custom-btn-link {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -431,7 +431,7 @@ body {
   text-transform: uppercase;
 }
 
-.portfolio-card .btn-link ion-icon {
+.portfolio-card .custom-btn-link ion-icon {
   color: var(--orange-soda);
   font-size: 1.6rem;
 }
@@ -526,7 +526,7 @@ textarea.contact-input {
   max-height: 300px;
 }
 
-.btn-submit {
+.custom-btn-submit {
   background-color: var(--orange-soda);
   color: var(--white);
   font-family: var(--ff-barlow);
@@ -537,7 +537,7 @@ textarea.contact-input {
   transition: var(--transition-2);
 }
 
-.btn-submit:is(:hover, :focus) {
+.custom-btn-submit:is(:hover, :focus) {
   background-color: var(--white);
   color: var(--black);
 }
@@ -827,7 +827,7 @@ textarea.contact-input {
     gap: 30px;
   }
 
-  .navbar .btn {
+  .navbar .custom-btn {
     margin-block-start: 0;
     --padding: 7px 30px;
   }
@@ -846,7 +846,7 @@ textarea.contact-input {
 
   .hero-content { text-align: left; }
 
-  .btn-group { justify-content: flex-start; }
+  .custom-btn-group { justify-content: flex-start; }
 
   .hero-title span { font-size: 3rem; }
 
@@ -997,7 +997,7 @@ textarea.contact-input {
 
   .portfolio-card .card-subtitle { font-size: var(--fs-5); }
 
-  .portfolio-card .btn-link { --fs-6: 1.6rem; }
+  .portfolio-card .custom-btn-link { --fs-6: 1.6rem; }
 
 
 
@@ -1055,4 +1055,22 @@ textarea.contact-input {
   .copyright,
   .footer-list { margin-inline: 0; }
 
+}
+
+.carousel-inner .carousel-item img{
+  width: 95vw;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.achivements .section-text{
+  margin-bottom: 4rem;
+}
+
+.carousel-inner .carousel-item .carousel-caption{
+  background-color: #333;
+  margin-bottom: 2rem;
+  height: fit-content;
+  border-radius: 10px;
+  opacity: 0.9;
 }
